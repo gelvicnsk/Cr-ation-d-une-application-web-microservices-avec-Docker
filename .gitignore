@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+
+# Data
+data/
+*.csv
+*.parquet
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
